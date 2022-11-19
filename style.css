@@ -139,3 +139,56 @@ header {
     align-items: center;
     border-radius: 5px;
 }
+
+.top {
+/* background-color: antiquewhite; */
+width: 90%;
+height: 200px;
+margin: auto;
+}
+
+.top__title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.top__covers {
+    display: flex;
+    align-items: center;
+    /* border:1px solid black; */
+    width: 370px;
+    height: 170px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.top__covers__cover {
+    /* border:1px solid red; */
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__covers__cover--img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.top__covers--stars {
+    color: #FFCE32;
+}
+.star {
+    color:rgb(188, 186, 186);
+}
+
+
