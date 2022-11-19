@@ -49,3 +49,93 @@ header {
     outline:none
 }
 
+.book__information {
+    /* background-color: antiquewhite; */
+    width: 90%;
+    height: 250px;
+    margin: auto;
+}
+
+.book__information__title {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.book__information--flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.book__information__img {
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book__information--details {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.book__information__bookname {
+    font-size: 20px;
+}
+.book__information__author {
+    font-size: 15px;
+    color: rgba(0,0,0,0.3);
+}
+
+.book__information__stars {
+    color: #FFCE32;
+}
+.star {
+    color:rgb(188, 186, 186);
+}
+.book__information__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#book__information__btns__btn {
+    width: 90%;
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.7);
+    margin-right: 10px;
+}
+
+.book__information__check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 160px;
+    
+}
+
+.book__information__check__bookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FFCE32;
+    padding: auto;
+    
+}
+
+.book__information__check__booking {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
